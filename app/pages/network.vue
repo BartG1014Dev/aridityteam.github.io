@@ -17,6 +17,13 @@ const networkBrandingImages = computed(() => {
 		}),
 	);
 });
+
+useHead({
+	title: 'Network',
+	meta: [
+		{ name: 'description', content: 'A portfolio website for The Aridity Team.' }
+	]
+});
 </script>
 
 <template>
@@ -49,7 +56,10 @@ const networkBrandingImages = computed(() => {
 							</p>
 						</div>
 						<div class="bg-gray-400 dark:bg-gray-900 p-2 w-full grow flex flex-row gap-4 justify-center items-center">
-							<a class="text-cyan-500 hover:underline hover:cursor-pointer" href="https://discord.gg/69HWzqVBDE">
+							<a class="text-cyan-500 hover:underline hover:cursor-pointer" href="https://hl2sbpp.github.io">
+								Website
+							</a>
+							<a class="text-cyan-500 hover:underline hover:cursor-pointer" href="https://discord.gg/3DkET6fqXr">
 								Discord
 							</a>
 						</div>
@@ -78,7 +88,7 @@ const networkBrandingImages = computed(() => {
 							<a class="text-cyan-500 hover:underline hover:cursor-pointer" href="https://hl2sbpp.github.io">
 								Website
 							</a>
-							<a class="text-cyan-500 hover:underline hover:cursor-pointer" href="https://discord.gg/3DkET6fqXr">
+							<a class="text-cyan-500 hover:underline hover:cursor-pointer" href="https://discord.gg/69HWzqVBDE">
 								Discord
 							</a>
 						</div>

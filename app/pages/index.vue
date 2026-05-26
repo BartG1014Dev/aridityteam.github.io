@@ -17,6 +17,13 @@ const brandingImages = computed(() => {
 		}),
 	);
 });
+
+useHead({
+	title: 'Home',
+	meta: [
+		{ name: 'description', content: 'A portfolio website for The Aridity Team.' }
+	]
+});
 </script>
 
 <template>

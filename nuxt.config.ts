@@ -21,6 +21,15 @@ export default defineNuxtConfig({
 			]
 		}
 	},
+	app: {
+		head: {
+			title: 'The Aridity Team website',
+			fallbackTitle: 'The Aridity Team Website',
+			link: [
+		        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+		    ],
+		}
+	},
 	css: ["~/assets/css/styles.css"],
 	modules: [
 		"@nuxt/eslint",
