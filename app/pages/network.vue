@@ -85,9 +85,6 @@ useHead({
 							</p>
 						</div>
 						<div class="bg-gray-400 dark:bg-gray-900 p-2 w-full grow flex flex-row gap-4 justify-center items-center">
-							<a class="text-cyan-500 hover:underline hover:cursor-pointer" href="https://hl2sbpp.github.io">
-								Website
-							</a>
 							<a class="text-cyan-500 hover:underline hover:cursor-pointer" href="https://discord.gg/69HWzqVBDE">
 								Discord
 							</a>
