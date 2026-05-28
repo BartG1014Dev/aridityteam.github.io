@@ -1,6 +1,6 @@
 /*
     Copyright (c) 2026 The Aridity Team, all rights reserved.
-    Licensed under the BSD 3-Clause License.
+    Licensed under the BSD 3-Clause License
 */
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
